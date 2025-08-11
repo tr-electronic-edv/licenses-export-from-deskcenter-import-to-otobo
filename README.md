@@ -23,8 +23,11 @@ Make a backup of the Otobo DB.
 
 Use `import_to_otobo.py` to load data into the Otobo CMDB
 - Otobo CMDB plugin should be installed in advance
+- script tries to read data from `contracts_licenses_backup.csv` file
 - use your own Otobo DB credentials
 - links between software contracts and associated licenses will be created automatically
 - associated keys, quantities, uses will be saved into the license details, too
+
+Login into Otobo server terminal and drop the Otobo web-cache: `su -c "/opt/otobo/bin/otobo.Console.pl Maint::Cache::Delete" otobo`
 
 Login into Otobo and click the CMDB tab to see the contacts and licenses.
