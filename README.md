@@ -3,6 +3,7 @@ AND you want to migrate them into the Otobo CMDB (free equivalent of Deskcenter)
 AND you've found, that the Deskcenter export DOES NOT save
   - the software keys tied to licenses
   - the relationship to the license contracts
+
 THEN you may want to use this code.
 
 As an administrator, you have the access to the Deskcenter DB and you can grep the list of contracts and/or licenses using SQL.
